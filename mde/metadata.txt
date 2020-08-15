@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=MDE
+qgisMinimumVersion=3.0
+description=Aquisição de Modelo de Elevação Topodata e processamento de MDE
+version=0.1
+author=Fabrício Amorim
+email=fabricioamorimeac@hotmail.com
+
+about=Aquisição de Modelo de Elevação Topodata e processamento de MDE Opções de Mapas: - Curvas de nível; - Declividade; - Mapa de Aspecto; - Relevo Sombreado; - Índice de Posição Topográfica (TPI); - Índice de Rugosidade do Terreno (TRI); - Delimitação das bacias hidrográficas (raster e vetor); - Delineamento de canais hidrográficos; - Locais de junções dos canais hidrográficos.
+
+tracker=http://bugs
+repository=https://github.com/CartoFabricio/MDE
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=hydraulics, processing, topography
+
+homepage=https://github.com/CartoFabricio
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
